@@ -21,6 +21,9 @@ In this example I'm going to provide a sample in order to manage business distri
 - Spring Data JPA
 - Etcd
 - Flyway
+- H2Database
+- Lombok
+- Apache Commons
 
 ## How it works
 When application start at first time it generate GLOBAL_CONFIGURATION table in h2 database with 2 records
