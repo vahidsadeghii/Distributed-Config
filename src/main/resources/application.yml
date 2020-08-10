@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:/tmp/sample
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+    platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+etcd:
+  endpoints: http://localhost:2379
+  key-prefix: /sample/

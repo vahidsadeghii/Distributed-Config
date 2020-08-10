@@ -1,0 +1,5 @@
+insert into GLOBAL_CONFIGURATION
+( CONF_KEY, CONF_VALUE) values ('OTP_LEN', '6');
+
+insert into GLOBAL_CONFIGURATION
+( CONF_KEY, CONF_VALUE) values ('OTP_EXP_IN_SECONDS', '360');
