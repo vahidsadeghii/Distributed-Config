@@ -33,3 +33,5 @@ By calling otp generator api, you get a random otp:
 
 In order to change otp length dynamically:
   > etcdctl --endpoints=192.168.0.107:2379 put /sample/OTP_LEN 7
+
+You can find more about etcdctl options, [here](https://etcd.io/docs/v3.4.0/dev-guide/interacting_v3/)
