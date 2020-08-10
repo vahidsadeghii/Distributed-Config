@@ -16,7 +16,7 @@ Configurations that make change on business logs of services, example maximum tr
 
 In this example I'm going to provide a sample in order to manage business distributed configs.
 
-## Technologies that i used
+## Dependencies
 - Spring Boot 2.x
 - Spring Data JPA
 - Etcd
@@ -25,7 +25,7 @@ In this example I'm going to provide a sample in order to manage business distri
 - Lombok
 - Apache Commons
 
-## How it works
+## How it Works
 When application start at first time it generate GLOBAL_CONFIGURATION table in h2 database with 2 records
 
 By calling otp generator api, you get a random otp:
